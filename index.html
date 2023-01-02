@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class 1 Let var const</title>
+  </head>
+  <body>
+    <div id="cptl"></div>
+    <div id="cptl_id"></div>
+    <div id="cptl_length"></div>
+    <div id="cptl_upper_id"></div>
+    <div id="cptl_lower_id"></div>
+    <br />
+    
+    <div id="std"></div>
+
+    <script>
+      // print
+      let capital = "Dhaka is the capital of Bangladesh.";
+      document.getElementById("cptl").innerHTML = capital;
+
+      //   type
+      let capital_type = typeof capital;
+      document.getElementById("cptl_id").innerHTML = "type: " + capital_type;
+
+      //   length
+      let cptl_leng = capital.length;
+      document.getElementById("cptl_length").innerHTML = "length :" + cptl_leng;
+
+      //   captial
+      let cptl_uper = capital.toUpperCase();
+      document.getElementById("cptl_upper_id").innerHTML = "Upper Case :" + cptl_uper;
+
+      let cptl_lower = capital.toLowerCase();
+      document.getElementById("cptl_lower_id").innerHTML = "Lower Case : " + cptl_lower;
+
+      let student = "Mahadi Hasan Sourab";
+      document.getElementById("std").innerHTML = student;
+
+      // console.log(capital);
+    </script>
+  </body>
+</html>
